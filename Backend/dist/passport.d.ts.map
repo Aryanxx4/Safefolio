@@ -1,0 +1,1 @@
+{"version":3,"file":"passport.d.ts","sourceRoot":"","sources":["../src/passport.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,UAAU,CAAC;AAIhC,MAAM,MAAM,OAAO,GAAG;IACpB,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,CAAC,EAAE,MAAM,CAAC;IACd,KAAK,CAAC,EAAE,MAAM,CAAC;IACf,OAAO,CAAC,EAAE,MAAM,CAAC;CAClB,CAAC;AAkCF,eAAe,QAAQ,CAAC"}

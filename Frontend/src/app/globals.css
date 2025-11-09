@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: 14 14 16;
+  --fg: 244 244 245;
+}
+
+html, body, #__next {
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+}
+
+/* Hero gradient and subtle animated particles */
+.hero-gradient {
+  background: linear-gradient(180deg, #05070d 0%, #0f172a 100%);
+}
+
+@keyframes float {
+  0% { transform: translateY(0); opacity: 0.7; }
+  50% { transform: translateY(-8px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 0.7; }
+}
+
+.float-slow { animation: float 5s ease-in-out infinite; }
+.float-slower { animation: float 8s ease-in-out infinite; }
+
+@keyframes pulse-line {
+  0% { stroke-dashoffset: 200; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.chart-line {
+  stroke-dasharray: 200;
+  animation: pulse-line 4s linear infinite;
+}
